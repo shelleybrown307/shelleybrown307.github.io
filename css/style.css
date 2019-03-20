@@ -1,0 +1,123 @@
+
+.header3 {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+  border: solid steelblue;
+}
+
+.button-group {
+  margin-left: 30px;
+}
+
+.topnav,
+.dropdown, .dropdown-menu {
+  background-color: rgb(62, 154, 185);
+  /* overflow: hidden; */
+     float: right;
+  justify-content: right;
+  margin-right: 12px;
+  margin-left: 15px;
+  margin-top: 35px;
+  padding: 2px;
+  }
+
+
+
+
+/* Style the links inside the navigation bar */
+.topnav, .dropdown-menu a {
+  display: inline-block;
+  float: right;
+  justify-content: space-between;
+  margin-right: auto;
+  color: darkblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav, .dropdown-menu a:hover {
+  background-color:rgb(62, 154, 185);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav, .dropdown-menu a.active {
+  background-color:steelblue;
+  color: white;
+  margin-right: 27px;
+  margin-right: 15px;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+img {
+border-radius: 8px;
+text-align: center;
+display: block;
+float: right;
+width: 40%;
+margin-top: 1%;
+margin-right: 300px;
+Margin-left: auto;
+}
+.centered {
+  position: relative;
+  margin-right: 50%;
+  margin-left: 50%;
+  width: 50%;
+}
+  footer {
+    text-align: center;
+    position: fixed;
+    padding: 0px 0px;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    font-family: italic;
+
+}
+
+.dropdowns--wrapper{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.dropdownT{
+  display: block;
+  max-height: 35px;
+  overflow: hidden;
+  transition: max-height 450ms ease;
+}
+
+.btnCodeLou{
+  padding: 8px;
+  outline: none;
+  color: #ffffff;
+  background-color: blue;
+  border-radius: 7px;
+  border: 10px solid steelgrey; 
+}
+
+.img2hidden{
+  opacity: 0;
+}
+
+.dropdownT-menu{
+  opacity: 1;  
+}
+
+/* Media Query*/
+@media (max-width: 768px) {
+  #sidebar {
+      margin-left: -250px;
+  }
+ 
+}
