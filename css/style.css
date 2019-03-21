@@ -114,10 +114,4 @@ Margin-left: auto;
   opacity: 1;  
 }
 
-/* Media Query*/
-@media (max-width: 768px) {
-  #sidebar {
-      margin-left: -250px;
-  }
- 
-}
+
