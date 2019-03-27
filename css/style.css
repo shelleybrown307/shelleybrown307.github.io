@@ -116,3 +116,15 @@ footer {
   right: 0;
   z-index: 150;
 }
+
+ @media only screen and (min-width: 481px) and (max-width: 768px)
+{
+  body {
+    background-color: pink;
+  }
+.button-group {
+  display: block;
+}
+}
+
+
