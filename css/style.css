@@ -122,8 +122,9 @@ footer {
   body {
     background-color: pink;
   }
-.button-group {
-  display: block;
+ .dropdowns--wrapper {
+  display: inline-block;
+  width: 100%;
 }
 }
 
